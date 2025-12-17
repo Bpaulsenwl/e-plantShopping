@@ -81,6 +81,10 @@ body {
     z-index: 1;
 }
 
+.product-button.added-to-cart {
+    background-color: grey; /* Grey when product is added */
+}
+
 .product-title {
     font-weight: bold;
     margin-bottom: 10px;
@@ -170,7 +174,6 @@ body {
     margin-left: 27px;
     position: absolute;
     font-size: 29px;
-
 }
 .plantname_heading{
    display: flex;
@@ -181,7 +184,7 @@ body {
 .plant_heading{
     width: 400px;
     text-align: center;
-    margin: 20px;
+    margin: 20px auto;
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
@@ -213,6 +216,11 @@ body {
   
   .product-button:hover {
     background-color: #45a049;
+  }
+
+  .product-cost {
+      color: red;
+      margin: 10px 0;
   }
   
   .product-button.added-to-cart {
